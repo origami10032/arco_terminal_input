@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.11)
+project(arco_terminal_input C)
+set(CMAKE_C_STANDARD 11)
+include_directories(.)
+add_executable(arco_terminal_input arco_terminal_input.c example.c)
